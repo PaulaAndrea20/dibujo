@@ -57,14 +57,27 @@ function ejercicio1(){
  
 //EJEX
   lienzo1.beginPath(); // Pongo el lápiz
-  lienzo1.moveTo(150,0); // lo ubicó para iniciar el dibujo
-  lienzo1.lineTo(150,300); // trazo la linea hasta este punto
+  lienzo1.moveTo(80,124); // lo ubicó para iniciar el dibujo
+  lienzo1.lineTo(80,300); // trazo la linea hasta este punto
   lienzo1.stroke(); // levanto el lápiz
   lienzo1.closePath(); // me alisto para realizar otra parte del dibujo
 //EJE Y
   lienzo1.beginPath(); // Pongo el lápiz
   lienzo1.moveTo(0,150);// lo ubicó para iniciar el dibujo
-  lienzo1.lineTo(300,150);// trazo la linea hasta este punto
+  lienzo1.lineTo(150,150);// trazo la linea hasta este punto
+  lienzo1.stroke();// levanto el lápiz
+  lienzo1.closePath();// me alisto para realizar otra parte del dibujo
+
+  //EJEX2
+  lienzo1.beginPath(); // Pongo el lápiz
+  lienzo1.moveTo(50,380); // lo ubicó para iniciar el dibujo
+  lienzo1.lineTo(80,300); // trazo la linea hasta este punto
+  lienzo1.stroke(); // levanto el lápiz
+  lienzo1.closePath(); // me alisto para realizar otra parte del dibujo
+//EJE Y2
+  lienzo1.beginPath(); // Pongo el lápiz
+  lienzo1.moveTo(100,380);// lo ubicó para iniciar el dibujo
+  lienzo1.lineTo(80,300);// trazo la linea hasta este punto
   lienzo1.stroke();// levanto el lápiz
   lienzo1.closePath();// me alisto para realizar otra parte del dibujo
  }
@@ -85,5 +98,5 @@ function ejercicio1(){
   }
 }
 
- //ejercicio1();
+ ejercicio1();
  draw();
